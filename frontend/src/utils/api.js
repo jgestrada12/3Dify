@@ -2,6 +2,7 @@
 // that's http://localhost:4000 — change this if you deploy the backend
 // somewhere else.
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
+console.log("API_BASE is:", API_BASE);
 
 export async function fetchStlFromPhoto(imageDataUrl, targetSizeMm) {
   const res = await fetch(`${API_BASE}/api/photo-to-stl`, {
