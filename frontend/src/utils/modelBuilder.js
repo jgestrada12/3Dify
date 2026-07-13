@@ -239,5 +239,17 @@ export const TEMPLATE_FIELDS = {
     { key: "holeDiameter", label: "Inner hole diameter (mm)", default: 6 },
     { key: "height", label: "Height / length (mm)", default: 10 },
   ],
-  box: [
-    { key: "length", label: "
+  bo  box: [
+    { key: "length", label: "Length (mm)", default: 40 },
+    { key: "width", label: "Width (mm)", default: 40 },
+    { key: "height", label: "Height (mm)", default: 20 },
+  ],
+  custom: [
+    { key: "length", label: "Length (mm)", default: 50 },
+    { key: "width", label: "Width (mm)", default: 50 },
+    { key: "thickness", label: "Thickness (mm)", default: 3 },
+    { key: "screwHoles", label: "Number of holes", default: 0, isInt: true },
+    { key: "holeDiameter", label: "Hole diameter (mm)", default: 4 },
+  ],
+};
+
