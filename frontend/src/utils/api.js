@@ -4,7 +4,8 @@
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
 console.log("API_BASE is:", API_BASE);
 
-export async function fetchStlFromPhoto(imageDataUrl, targetSizeMm) {
+export async function fetchStlFromPhoto(    throw new Error(`${message} (tried: ${API_BASE})`);
+) {
   const res = await fetch(`${API_BASE}/api/photo-to-stl`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
