@@ -1,0 +1,17 @@
+{
+  "name": "3dify-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "STL generation API for the 3Dify app",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "three": "^0.164.1"
+  }
+}
